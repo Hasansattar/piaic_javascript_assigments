@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>    </title>
+     <script>   
+          var a=prompt("enter positive integer");
+           
+          
+           var b = Math.round(a);
+           var c = Math.ceil(a);
+           var d = Math.floor(a);
+           var h=Number(a);
+
+      
+        
+    function myFunction1() {         
+           document.getElementById("demo").innerHTML = c;
+    }
+    function myFunction2() {         
+           document.getElementById("demo").innerHTML = a;
+    }
+    function myFunction3() {         
+           document.getElementById("demo").innerHTML = d;
+    }
+    function myFunction4() {         
+           document.getElementById("demo").innerHTML = h;
+    }
+    </script>
+
+
+</head>
+    <body>
+             <p id="demo"></p>
+           <button onclick="myFunction1()">ceil</button> 
+           <button onclick="myFunction2()">round</button> 
+           <button onclick="myFunction3()">floor</button>  
+           <button onclick="myFunction4()">number</button>  
+    </body>
+</html>
