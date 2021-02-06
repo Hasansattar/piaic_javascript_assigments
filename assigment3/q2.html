@@ -1,0 +1,19 @@
+<html>
+    <head><title>
+    </title></head>
+    <script>
+    const str1 = 'karachi';
+    const str2 = 'KARACHI';
+
+    str1 === str2; // false
+
+// 0, means these two strings are equal according to `localeCompare()`
+c =  str1.localeCompare(str2, undefined, { sensitivity: 'accent' });
+       alert("both KARACHI and karachi is match"+"  "+ c)
+    </script>
+
+
+    <body>
+            
+    </body>
+</html>
