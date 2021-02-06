@@ -1,0 +1,22 @@
+<html>
+    <head><title></title>
+    
+    </head>
+    <body>
+        <h1>Qualification</h1>
+        <p id =demo></p>
+             
+        <script>
+            var x,y;
+             x = ["SSC","HSC","BCS","BS","BCOM","MS","M.PHIL","PHD"]
+    
+            y= "<ol>";
+                for(i=0; i<x.length; i++){
+    
+                    y+="<li>" +x[i]+ "</li>"
+                }
+             y+="</ol>";
+             document.getElementById("demo").innerHTML = y;
+        </script>
+    </body>
+</html>
